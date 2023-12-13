@@ -1,6 +1,10 @@
 package com.springframework.MockitoTest;
 
 public class BusnissServiceImp {
+    public BusnissServiceImp(serviceData serviceDatas) {
+        this.serviceDatas = serviceDatas;
+    }
+
     public serviceData serviceDatas;
 
     public int getGratestnum(){
